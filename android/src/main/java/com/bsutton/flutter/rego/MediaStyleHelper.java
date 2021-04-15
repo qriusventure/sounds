@@ -1,4 +1,4 @@
-package com.bsutton.flutter.sounds;
+package com.bsutton.flutter.rego;
 /*
  * This file is part of Sounds .
  *
@@ -26,7 +26,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 import androidx.media.app.NotificationCompat.MediaStyle;
 import androidx.media.session.MediaButtonReceiver;
-import com.bsutton.flutter.sounds.R;
+import com.bsutton.flutter.rego.R;
 
 //import androidx.appcompat.app.NotificationCompat;
 

@@ -1,4 +1,4 @@
-package com.bsutton.flutter.sounds;
+package com.bsutton.flutter.rego;
 
 import android.Manifest;
 import android.app.Activity;
@@ -58,9 +58,9 @@ import java.util.concurrent.Callable;
 
 import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
-import com.bsutton.flutter.sounds.SoundPlayer;
-import com.bsutton.flutter.sounds.MediaBrowserHelper;
-import com.bsutton.flutter.sounds.Track;
+import com.bsutton.flutter.rego.SoundPlayer;
+import com.bsutton.flutter.rego.MediaBrowserHelper;
+import com.bsutton.flutter.rego.Track;
 
 /**
  * Flutter plugin for the ShadePlayer. provides communication between dart and
@@ -78,7 +78,7 @@ class ShadePlayerPlugin extends SoundPlayerPlugin implements MethodCallHandler {
 		ShadePlayerPlugin = new ShadePlayerPlugin();
 		assert (slots == null);
 		slots = new ArrayList<SoundPlayer>();
-		channel = new MethodChannel(messenger, "com.bsutton.flutter.sounds.sounds_shade_player");
+		channel = new MethodChannel(messenger, "com.bsutton.flutter.rego.sounds_shade_player");
 		channel.setMethodCallHandler(ShadePlayerPlugin);
 		androidContext = ctx;
 

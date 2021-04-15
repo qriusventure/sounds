@@ -1,4 +1,4 @@
-package com.bsutton.flutter.sounds;
+package com.bsutton.flutter.rego;
 
 import android.media.MediaRecorder;
 

@@ -32,7 +32,7 @@ class SoundPlayerShadePlugin extends PlayerBasePlugin {
     return _self;
   }
   SoundPlayerShadePlugin._internal()
-      : super('com.bsutton.flutter.sounds.sounds_shade_player');
+      : super('com.bsutton.flutter.rego.sounds_shade_player');
 
   /// Plays the given [track]. [canSkipForward] and [canSkipBackward] must be
   /// passed to provide information on whether the user can skip to the next

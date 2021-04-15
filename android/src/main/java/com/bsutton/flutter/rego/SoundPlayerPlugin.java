@@ -1,4 +1,4 @@
-package com.bsutton.flutter.sounds;
+package com.bsutton.flutter.rego;
 
 import android.Manifest;
 import android.app.Activity;
@@ -67,7 +67,7 @@ class SoundPlayerPlugin implements MethodCallHandler {
 		soundPlayerPlugin = new SoundPlayerPlugin();
 		assert (slots == null);
 		slots = new ArrayList<SoundPlayer>();
-		channel = new MethodChannel(messenger, "com.bsutton.flutter.sounds.sound_player");
+		channel = new MethodChannel(messenger, "com.bsutton.flutter.rego.sound_player");
 		channel.setMethodCallHandler(soundPlayerPlugin);
 		androidContext = ctx;
 

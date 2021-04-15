@@ -41,7 +41,7 @@ class SoundRecorderPlugin extends BasePlugin {
     return _self;
   }
   SoundRecorderPlugin._internal()
-      : super('com.bsutton.flutter.sounds.sound_recorder', _slots);
+      : super('com.bsutton.flutter.rego.sound_recorder', _slots);
 
   ///
   Future<void> initializeRecorder(

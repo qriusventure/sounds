@@ -1,4 +1,4 @@
-package com.bsutton.flutter.sounds;
+package com.bsutton.flutter.rego;
 
 import java.util.concurrent.CountDownLatch;
 

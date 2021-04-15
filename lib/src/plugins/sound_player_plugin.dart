@@ -33,7 +33,7 @@ class SoundPlayerPlugin extends PlayerBasePlugin {
     return _self;
   }
   SoundPlayerPlugin._internal()
-      : super('com.bsutton.flutter.sounds.sound_player');
+      : super('com.bsutton.flutter.rego.sound_player');
 
   Future<void> play(player.SoundPlayer player, Track track) async {
     var args = <String, dynamic>{};

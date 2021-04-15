@@ -34,7 +34,7 @@ flutter:
   plugin: 
     platforms: 
       android: 
-        package: com.bsutton.flutter.sounds
+        package: com.bsutton.flutter.rego
         pluginClass: Sounds
       ios: 
         pluginClass: Sounds

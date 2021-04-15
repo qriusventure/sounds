@@ -1,4 +1,4 @@
-package com.bsutton.flutter.sounds;
+package com.bsutton.flutter.rego;
 /*
  * This file is part of Sounds .
  *
@@ -73,9 +73,9 @@ import java.util.concurrent.Callable;
 
 import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
-import com.bsutton.flutter.sounds.SoundPlayer;
-import com.bsutton.flutter.sounds.MediaBrowserHelper;
-import com.bsutton.flutter.sounds.Track;
+import com.bsutton.flutter.rego.SoundPlayer;
+import com.bsutton.flutter.rego.MediaBrowserHelper;
+import com.bsutton.flutter.rego.Track;
 
 public class ShadePlayer extends SoundPlayer {
 	private MediaBrowserHelper mMediaBrowserHelper;

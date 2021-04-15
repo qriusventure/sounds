@@ -48,7 +48,7 @@ static SoundRecorderManager* soundRecorderManager; // Singleton
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar
 {
-        _channel = [FlutterMethodChannel methodChannelWithName:@"com.bsutton.flutter.sounds.sound_recorder"
+        _channel = [FlutterMethodChannel methodChannelWithName:@"com.bsutton.flutter.rego.sound_recorder"
                                         binaryMessenger:[registrar messenger]];
         assert (soundRecorderManager == nil);
         soundRecorderManager = [[SoundRecorderManager alloc] init];

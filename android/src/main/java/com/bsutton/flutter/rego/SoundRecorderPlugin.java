@@ -1,4 +1,4 @@
-package com.bsutton.flutter.sounds;
+package com.bsutton.flutter.rego;
 
 import android.content.Context;
 import android.media.MediaRecorder;
@@ -32,7 +32,7 @@ import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 class SoundRecorderPlugin implements MethodCallHandler {
-	public static final String CHANNEL_NAME = "com.bsutton.flutter.sounds.sound_recorder";
+	public static final String CHANNEL_NAME = "com.bsutton.flutter.rego.sound_recorder";
 	private static MethodChannel channel;
 	public static List<SoundRecorder> slots;
 

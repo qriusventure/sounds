@@ -39,7 +39,7 @@ static SoundPlayerManager* soundPlayerManager; // Singleton
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar
 {
-        _channel = [FlutterMethodChannel methodChannelWithName:@"com.bsutton.flutter.sounds.sound_player"
+        _channel = [FlutterMethodChannel methodChannelWithName:@"com.bsutton.flutter.rego.sound_player"
                                         binaryMessenger:[registrar messenger]];
         assert (soundPlayerManager == nil);
         soundPlayerManager = [[SoundPlayerManager alloc] init];

@@ -5,7 +5,7 @@
  *
  * AndroidManifest.xml has an entry .MainActivity for which this must exist.
  */
-package com.bsutton.flutter.sounds.example
+package com.bsutton.flutter.rego.example
 
 import io.flutter.embedding.android.FlutterActivity
 
